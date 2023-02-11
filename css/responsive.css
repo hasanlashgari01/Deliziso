@@ -1,0 +1,442 @@
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+
+  .nav__login {
+    display: none;
+  }
+
+  .nav-mobile__menu {
+    display: flex;
+  }
+
+  .home__title,
+  .welcome__title {
+    font-size: 4.4rem;
+  }
+
+  .home__describe,
+  .welcome__describe {
+    line-height: 1.6;
+    margin-bottom: 5rem;
+  }
+
+  .welcome__inner {
+    padding-block: 19.6rem;
+  }
+
+  .welcome__right {
+    height: 360.99px;
+  }
+
+  .popular-menu__list {
+    grid-template-columns: repeat(2, 35rem);
+  }
+
+  .open__inner {
+    padding: 5rem 7rem;
+  }
+
+  .open__day {
+    font-size: 2.5rem;
+  }
+
+  .open__launch,
+  .open__dinner,
+  .open__other {
+    font-size: 1.8rem;
+  }
+
+  .intro__inner {
+    gap: 12rem;
+  }
+
+  .intro__img {
+    width: 35.996rem;
+    height: 35.996rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home__inner {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .home__title,
+  .welcome__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .home__right,
+  .welcome__right {
+    align-self: center;
+    width: 49rem;
+  }
+
+  .welcome__inner {
+    flex-direction: column-reverse;
+    gap: 4rem;
+    padding-block: 10.6rem;
+  }
+
+  .chef__title,
+  .customers__title,
+  .open__title {
+    font-size: 3.5rem;
+  }
+
+  .chefs {
+    gap: 5rem 1rem;
+  }
+
+  .chef__pic {
+    height: 250.66px;
+    margin-bottom: 1.5rem;
+  }
+
+  .chef__name {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .chef__side {
+    font-size: 1.6rem;
+  }
+
+  .customer-other__img-one,
+  .customer-other__img-seven {
+    display: none;
+  }
+
+  .customers__head {
+    width: 24rem;
+    height: 24rem;
+  }
+
+  .intro__title-head {
+    display: block;
+  }
+
+  .intro__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro__img {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .intro__title {
+    display: none;
+  }
+
+  .intro__describe {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .describe__inner {
+    flex-direction: column-reverse;
+  }
+
+  .owner__title-head {
+    display: block;
+    font-size: 3rem;
+  }
+
+  .owner__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .owner__img {
+    height: 40.2rem;
+    border-radius: 2.2rem;
+    overflow: hidden;
+  }
+
+  .owner__img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .owner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .owner__title {
+    display: none;
+  }
+
+  .owner__name {
+    font-size: 1.6rem;
+  }
+
+  .owner__describe {
+    font-size: 1.5rem;
+    max-width: 289.11px;
+  }
+
+  .main__content {
+    transform: translateY(0);
+    margin-top: 5rem;
+  }
+
+  .form__title {
+    display: block;
+    text-align: center;
+    font-size: 3.6rem;
+  }
+
+  .form {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .popular-menu__list {
+    grid-template-columns: repeat(1, 35rem);
+  }
+
+  .customer-other__img-two,
+  .customer-other__img-six {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .customer-other__img-three,
+  .customer-other__img-four,
+  .customer-other__img-five {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .customer-other__img-four {
+    box-shadow: 0 0 0 1.5rem rgba(255, 136, 0, 0.4), 0 0 0 3rem rgba(255, 136, 0, 0.1);
+    margin-inline: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__describe,
+  .welcome__describe {
+    margin-bottom: 4rem;
+  }
+
+  .home__right,
+  .welcome__right {
+    width: 40rem;
+    height: 35.5rem;
+  }
+
+  .popular-menu__pagination {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .customer-other__img-two,
+  .customer-other__img-six {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .customer-other__img-three,
+  .customer-other__img-four,
+  .customer-other__img-five {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home__describe,
+  .welcome__describe {
+    max-width: 36rem;
+    font-size: 1.4rem;
+  }
+
+  .home__right,
+  .welcome__right {
+    width: 32rem;
+    height: 32rem;
+  }
+
+  .welcome__inner {
+    padding-block: 5.2rem;
+  }
+
+  .popular-menu__category-item {
+    font-size: 1.6rem;
+    padding: 1rem 2.4rem;
+  }
+
+  .popular-menu__item-btn {
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popular-menu__item-text {
+    display: none;
+  }
+
+  .popular-menu__item-icon {
+    display: block;
+  }
+
+  .customer-other__img-two,
+  .customer-other__img-six {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .customer-other__img-three,
+  .customer-other__img-four,
+  .customer-other__img-five {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .customer-other__img-four {
+    box-shadow: 0 0 0 1rem rgba(255, 136, 0, 0.4), 0 0 0 2rem rgba(255, 136, 0, 0.1);
+    margin-inline: 2.2rem;
+  }
+
+  .customers__head {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .customers__name {
+    font-size: 1.8rem;
+  }
+
+  .customers__side,
+  .customer__describe {
+    font-size: 1.6rem;
+  }
+
+  .customer__describe {
+    max-width: 35rem;
+  }
+
+  .open {
+    padding-block: 13.8rem;
+  }
+
+  .open__inner {
+    padding: 5rem 1rem;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+
+  .open__launch,
+  .open__dinner,
+  .open__other {
+    font-size: 1.4rem;
+  }
+
+  .open__buttons {
+    flex-direction: column;
+  }
+
+  .footer__inner {
+    padding-inline: 1rem;
+    gap: 3rem 10rem;
+  }
+
+  .footer-item__describe {
+    margin-block: 2.5rem 2rem;
+  }
+
+  .social-media > a {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 1.5rem;
+  }
+
+  .footer-item__describe {
+    font-size: 1.4rem;
+  }
+
+  .footer-item__list {
+    gap: 0.5rem;
+  }
+
+  .footer-item__title {
+    font-size: 1.8rem;
+  }
+
+  .footer-item__link {
+    font-size: 1.4rem;
+    color: rgb(227, 226, 224);
+    transition: color 0.3s linear;
+  }
+
+  .intro__title-head {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .app-logo__text {
+    display: none;
+  }
+
+  .home__title,
+  .welcome__title {
+    font-size: 3rem;
+  }
+
+  .home__describe,
+  .welcome__describe {
+    max-width: 31.3rem;
+  }
+
+  .home__btn,
+  .welcome__btn {
+    display: inline-block;
+    padding: 1.4rem 2.2rem;
+    font-size: 1.6rem;
+    width: fit-content;
+  }
+
+  .customer-other__img-two,
+  .customer-other__img-six {
+    display: none;
+  }
+
+  .intro__img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .intro__describe {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .home__btns {
+    flex-direction: column;
+  }
+
+  .popular-menu__list {
+    grid-template-columns: repeat(1, 31rem);
+  }
+}

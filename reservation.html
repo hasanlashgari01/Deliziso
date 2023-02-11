@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/pages/reservation.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="container">
+        <div class="nav">
+          <!-- Logo -->
+          <a href="home.html" class="app-logo">
+            <span class="app-logo__icon">D</span>
+            <span class="app-logo__text">
+              Delizi
+              <span class="app-logo__text-orange">oso</span>
+            </span>
+          </a>
+          <!-- Menu -->
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="home.html" class="menu__link menu__link--active">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Menu</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Order online</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Reservation</a>
+            </li>
+          </ul>
+          <!-- Mobile Menu -->
+          <div class="nav-mobile">
+            <ul class="nav-mobile__list">
+              <li class="nav-mobile__item">
+                <a href="home.html" class="nav-mobile__link nav-mobile__link--active">Home</a>
+              </li>
+              <li class="nav-mobile__item">
+                <a href="#" class="nav-mobile__link">Menu</a>
+              </li>
+              <li class="nav-mobile__item">
+                <a href="#" class="nav-mobile__link">About</a>
+              </li>
+              <li class="nav-mobile__item">
+                <a href="#" class="nav-mobile__link">Order online</a>
+              </li>
+              <li class="nav-mobile__item">
+                <a href="#" class="nav-mobile__link">Reservation</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Header Button -->
+          <div class="nav__right">
+            <a href="#" class="nav__cart">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.5 5.92H19.7558C20.3947 5.92 20.8698 6.51108 20.7324 7.13511L19.6915 11.8604C19.2876 13.6941 17.6628 15 15.7852 15H9.54507C8.07693 15 6.82447 13.9375 6.58518 12.489L5.5 5.92ZM5.5 5.92L4.96302 4.35201C4.68606 3.54329 3.92573 3 3.0709 3H3"
+                  stroke="#311F09"
+                  stroke-width="1.5"
+                  stroke-linecap="round" />
+                <path
+                  d="M18 18H7.5C6.67157 18 6 17.3284 6 16.5V16.5C6 15.6716 6.67157 15 7.5 15H10"
+                  stroke="#311F09"
+                  stroke-width="1.5"
+                  stroke-linecap="round" />
+                <circle cx="8" cy="20" r="1.25" stroke="#311F09" stroke-width="1.5" />
+                <circle cx="16" cy="20" r="1.25" stroke="#311F09" stroke-width="1.5" />
+              </svg>
+              <span class="nav__cart-count">3</span>
+            </a>
+            <a href="#" class="nav__login btn btn__green">Log in</a>
+            <span class="nav-mobile__menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2.75" y="2.75" width="7.5" height="7.5" rx="2.25" stroke="#311F09" stroke-width="1.5" />
+                <rect x="13.75" y="2.75" width="7.5" height="7.5" rx="2.25" stroke="#311F09" stroke-width="1.5" />
+                <rect x="2.75" y="13.75" width="7.5" height="7.5" rx="2.25" stroke="#311F09" stroke-width="1.5" />
+                <rect x="13.75" y="13.75" width="7.5" height="7.5" rx="3.75" stroke="#FF8A00" stroke-width="1.5" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main id="main" class="main">
+      <div class="container">
+        <div class="main__inner intro__inner">
+          <div class="main__img intro__img">
+            <img src="images/reservation.png" alt="" />
+          </div>
+
+          <div class="main__content">
+            <h1 class="form__title intro__title">Book a table</h1>
+            <form class="form">
+              <input type="date" placeholder="Date" />
+              <input type="time" placeholder="Time" />
+              <input type="text" placeholder="Size" />
+              <input type="submit" value="Book now" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer-item">
+            <a href="home.html" class="app-logo">
+              <span class="app-logo__icon">D</span>
+              <span class="app-logo__text">
+                Delizi
+                <span class="app-logo__text-orange">oso</span>
+              </span>
+            </a>
+            <p class="footer-item__describe">Viverra gravida morbi egestas facilisis tortor netus non duis tempor.</p>
+            <div class="social-media">
+              <a href="#">
+                <img src="images/twitter.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="images/instagram.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="images/facebook.svg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-item">
+            <h3 class="footer-item__title">Page</h3>
+            <ul class="footer-item__list">
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">Home</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">Menu</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">Order online</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">Catering</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">Reservation</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h3 class="footer-item__title">Information</h3>
+            <ul class="footer-item__list">
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">About us</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">Testimonial</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">Event</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h3 class="footer-item__title">Get in touch</h3>
+            <ul class="footer-item__list">
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">3247 Johnson Ave, Bronx, NY 10463, Amerika Serikat</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">delizioso@gmail.com</a>
+              </li>
+              <li class="footer-item__list-item">
+                <a href="#" class="footer-item__link">+123 4567 8901</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

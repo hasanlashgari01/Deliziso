@@ -1,0 +1,75 @@
+/* 
+
+============
+    Base
+============
+
+*/
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins-Regular";
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #311f09;
+}
+
+/* 
+  
+  ====================
+      Helper Class
+  ====================
+  
+  */
+
+.btn {
+  border-radius: 5rem;
+  padding: 1.1rem 3.5rem;
+  color: #fff;
+  font-family: "Poppins-SemiBold";
+  transition: 0.5s;
+}
+
+.btn__green {
+  background-color: #3fa72f;
+}
+
+.btn__green:hover {
+  background-color: rgba(26, 165, 4, 0.8);
+}
+
+.btn__orange {
+  background-color: #ff8a00;
+}
+
+.btn__orange:hover {
+  background-color: rgba(255, 136, 0, 0.8);
+}
+
+.btn__white {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #311f09;
+}
+
+.btn__white:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}

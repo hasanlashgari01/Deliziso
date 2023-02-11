@@ -1,0 +1,68 @@
+.footer {
+  background-color: rgba(49, 31, 9, 1);
+  padding-block: 14.9rem 9.3rem;
+  overflow: hidden;
+}
+
+.footer a,
+.footer .app-logo__text,
+.footer p {
+  color: #fff;
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem;
+}
+
+.footer-item:nth-child(1) {
+  max-width: 35rem;
+}
+
+.footer-item:last-child {
+  max-width: 28rem;
+}
+
+.footer-item__describe {
+  margin-block: 4.5rem 4rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 3rem;
+}
+
+.social-media > a {
+  width: 6rem;
+  height: 6rem;
+  padding: 1.5rem;
+  background: #e3e2e0;
+  border-radius: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-item__title {
+  color: rgba(255, 138, 0, 1);
+  font-size: 2.5rem;
+  font-family: "Poppins-SemiBold";
+  margin-bottom: 2.5rem;
+}
+
+.footer-item__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-item__link {
+  font-size: 2rem;
+  color: rgb(227, 226, 224);
+  transition: color 0.3s linear;
+}
+
+.footer-item__link:hover {
+  color: rgba(227, 226, 224, 0.8);
+}

@@ -1,0 +1,433 @@
+@import "../base.css";
+@import "../components/header.css";
+@import "../components/menu.css";
+@import "../components/footer.css";
+
+/* 
+
+==============
+    Main
+==============
+
+*/
+
+/* 
+
+============
+    Home
+============
+
+*/
+
+.home__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10.8rem;
+}
+
+.home__tag {
+  display: inline-block;
+  background-color: rgb(255, 138, 0, 0.2);
+  color: #ff8a00;
+  padding: 1rem 3.4rem;
+  border-radius: 3.4rem;
+  margin-bottom: 2.2rem;
+  animation: toBottom 2s ease-in-out forwards;
+}
+
+@keyframes toBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateY(30%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.home__title {
+  position: relative;
+  font-family: "Poppins-Bold";
+  color: #311f09;
+  font-size: 6.4rem;
+  margin-bottom: 3rem;
+}
+
+.home__title::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  animation: openTitle 1.5s ease forwards;
+  animation-delay: 2s;
+}
+
+@keyframes openTitle {
+  100% {
+    width: 0;
+  }
+}
+
+.home__describe {
+  font-size: 1.8rem;
+  line-height: 2.5;
+  max-width: 52.3rem;
+  margin-bottom: 7.7rem;
+}
+
+.home__btns {
+  display: flex;
+  gap: 2.3rem;
+}
+
+.home__btn {
+  display: inline-block;
+  padding: 1.4rem 4.2rem;
+}
+
+.home__right {
+  overflow: hidden;
+  width: 599.99px;
+  height: 540.99px;
+}
+
+.home__right-image {
+  width: 100%;
+  animation: toLeft 1.5s ease-in forwards;
+}
+
+@keyframes toLeft {
+  0% {
+    opacity: 0;
+    scale: 0.7;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+/* 
+
+===============
+    Welcome
+===============
+
+*/
+
+.welcome {
+  background-color: rgba(63, 198, 110, 0.1);
+}
+
+.welcome__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 13.6rem;
+  padding-block: 10.6rem;
+}
+
+.welcome__right {
+  width: 599.99px;
+  height: 540.99px;
+}
+
+.welcome__right-image {
+  width: 100%;
+}
+
+.welcome__content {
+  max-width: 40rem;
+  margin-right: 5rem;
+}
+
+.welcome__title {
+  font-family: "Poppins-Bold";
+  color: #311f09;
+  font-size: 6.4rem;
+  margin-bottom: 3rem;
+}
+
+.welcome__title-orange {
+  color: #ff8a00;
+}
+
+.welcome__describe {
+  font-size: 1.8rem;
+  line-height: 2.5;
+  max-width: 52.3rem;
+  margin-bottom: 7.7rem;
+}
+
+/* 
+
+============
+    Chef
+============
+
+*/
+
+.chef {
+  margin-bottom: 17rem;
+  padding-top: 6rem;
+}
+
+.chef__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef__title {
+  font-family: "Poppins-Bold";
+  font-size: 5rem;
+  color: #311f09;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.chefs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8rem;
+  margin-bottom: 6rem;
+}
+
+.chef__item {
+  text-align: center;
+}
+
+.chef__pic {
+  margin-bottom: 4rem;
+  height: 40rem;
+}
+
+.chef__name {
+  margin-bottom: 3rem;
+  font-family: "Poppins-SemiBold";
+  font-size: 2.2rem;
+  color: #311f09;
+}
+
+.chef__side {
+  color: #a08d76;
+  font-size: 2.1rem;
+}
+
+.chef__btn {
+  cursor: pointer;
+}
+
+/* 
+
+=============
+  Customers
+=============
+
+*/
+
+.customers {
+  background-color: rgba(208, 204, 199, 0.2);
+  padding-block: 12rem 32rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 9.8rem;
+}
+
+.circle-big {
+  width: 9.8rem;
+  height: 9.8rem;
+}
+
+.circle-medium {
+  width: 7.4rem;
+  height: 7.4rem;
+}
+
+.circle-small {
+  width: 4.4rem;
+  height: 4.4rem;
+}
+
+.circle:nth-child(1) {
+  left: 11.5rem;
+  top: 7rem;
+  background-color: #ceefc8;
+}
+
+.circle:nth-child(2) {
+  left: 34.6rem;
+  top: 30.7rem;
+  background: rgba(63, 186, 255, 0.1);
+}
+
+.circle:nth-child(3) {
+  right: 36rem;
+  top: 46.8rem;
+  background: rgba(245, 99, 99, 0.1);
+}
+
+.circle:nth-child(4) {
+  right: -3rem;
+  top: 60.4rem;
+  background: rgba(243, 167, 255, 0.53);
+}
+
+.circle:nth-child(5) {
+  left: 6rem;
+  top: 69.22rem;
+  background: rgba(255, 138, 0, 0.51);
+}
+
+.circle:nth-child(6) {
+  left: 27.5rem;
+  bottom: 16.9rem;
+  background: rgba(255, 138, 0, 0.2);
+}
+
+.circle:nth-child(7) {
+  right: 5.7rem;
+  bottom: 10rem;
+  background: rgba(196, 196, 196, 0.1);
+}
+
+.customers__title {
+  font-family: "Poppins-Bold";
+  font-size: 5rem;
+  color: #311f09;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.customers__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.customers__head {
+  margin-bottom: 4rem;
+}
+
+.customers__name {
+  font-family: "Poppins-SemiBold";
+  font-size: 3rem;
+  color: #311f09;
+}
+
+.customers__side {
+  font-size: 2rem;
+  color: #311f09;
+  margin-bottom: 9rem;
+}
+
+.customer__describe {
+  font-size: 2rem;
+  max-width: 42rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+
+.customers-others {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.customer-other__img-two,
+.customer-other__img-six {
+  transform: translateY(9rem);
+}
+
+.customer-other__img-three,
+.customer-other__img-four,
+.customer-other__img-five {
+  transform: translateY(14.8rem);
+}
+
+.customer-other__img-four {
+  width: 153.22px;
+  height: 153.22px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2rem rgba(255, 136, 0, 0.4), 0 0 0 4rem rgba(255, 136, 0, 0.1);
+  margin-inline: 4.2rem;
+}
+
+/* 
+
+=========
+  Open
+=========
+
+*/
+
+.open {
+  padding-block: 23.8rem;
+}
+
+.open__inner {
+  background: url("../../images/banner.png");
+  background-size: cover;
+  color: #fff;
+  padding: 5rem 27.7rem;
+  border-radius: 10rem;
+  max-width: 1150px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.open__title {
+  font-family: "Poppins-Bold";
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.open__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 369px;
+  margin-bottom: 5rem;
+}
+
+.open__day {
+  font-family: "Poppins-SemiBold";
+  font-size: 4rem;
+}
+
+.open__launch,
+.open__dinner,
+.open__other {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.open__other {
+  align-self: flex-end;
+}
+
+.open__buttons {
+  display: inline-flex;
+  gap: 2.4rem;
+}

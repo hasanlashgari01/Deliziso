@@ -1,0 +1,108 @@
+@import "../base.css";
+@import "../components/header.css";
+@import "../components/menu.css";
+@import "../components/footer.css";
+
+.intro {
+  margin-block: 12rem;
+}
+
+.intro__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 22rem;
+}
+
+.intro__title-head,
+.owner__title-head {
+  display: none;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.intro__img {
+  width: 44.996rem;
+  height: 44.996rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5rem rgba(208, 204, 199, 0.2), 0 0 0 10rem rgba(208, 204, 199, 0.1);
+}
+
+.intro__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.intro__title,
+.intro__title-head {
+  font-family: "Poppins-Bold";
+  font-size: 5rem;
+  margin-bottom: 6rem;
+}
+
+.intro__title span,
+.owner__title span,
+.intro__title-head span,
+.owner__title-head span {
+  color: #ff8a00;
+}
+
+.intro__describe {
+  font-size: 1.6rem;
+  line-height: 2.6;
+  max-width: 42.4rem;
+}
+
+.describe__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+
+=========
+Owner
+=========
+
+*/
+
+.owner {
+  margin-block: 16rem;
+}
+
+.owner__title-head {
+  display: none;
+}
+
+.owner__inner {
+  display: flex;
+  justify-content: center;
+  gap: 10.3rem;
+}
+
+.owner__img img {
+  height: 520px;
+}
+
+.owner__content {
+  max-width: 50rem;
+}
+
+.owner__title,
+.owner__title-head {
+  font-family: "Poppins-Bold";
+  font-size: 5rem;
+  margin-bottom: 4rem;
+}
+
+.owner__name {
+  font-family: "Poppins-SemiBold";
+  font-size: 3.5rem;
+  margin-bottom: 10.9rem;
+}
+
+.owner__describe {
+  font-size: 2.2rem;
+  line-height: 2.2;
+  font-family: "Poppins-LightItalic";
+}
